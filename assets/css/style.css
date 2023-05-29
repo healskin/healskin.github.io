@@ -496,12 +496,17 @@ h6 {
 }
 
 #texto-header {
-  width: 500px;
-  font-size: 24px;
+  max-width: 700px;
+  font-size: 20px;
+  color: white
+}
+
+#texto-header h2{
+  color: white
 }
 
 #texto-header p {
-  color: white
+  font-size: 16px;
 }
 
 .saiba-mais {
@@ -560,7 +565,6 @@ h6 {
 }
 
 #hero h2 {
-  color: #2f2f2f;
   margin-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -1594,12 +1598,6 @@ body:has(#leia-mais:checked) a[href='#gallery']{
   }
 }
 
-.gallery .swiper-slide img{
-  aspect-ratio: 4/3;
-  object-fit: cover;
-  width: 100%;
-  height:100%;
-}
 
 /*--------------------------------------------------------------
 # Pricing
